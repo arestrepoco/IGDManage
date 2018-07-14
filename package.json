@@ -1,12 +1,12 @@
 {
   "name": "IGDManage",
-  "version": "1.0.0",
+  "version": "2.5.1",
   "description": "Desktop application DMs",
   "main": "main/main.js",
   "scripts": {
     "start": "gulp build && electron .",
     "pack": "gulp build && build --dir",
-    "dist": "gulp build && build -mwl --x64"
+    "dist": "gulp build && build --win --x64"
   },
   "repository": {
     "type": "git",
@@ -43,26 +43,14 @@
     "gulp-pug": "^3.3.0",
     "jstransformer-markdown-it": "^2.0.0"
   },
-  "build": {
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "RC Design",
-        "repo": "igdmanage"
-      }
-    ],
-    "appId": "com.arestrepoco.desktop.igdm",
-    "copyright": "RC Design 2018",
-      "publish": "github",
-      "category": "public.app-category.social-networking"
-    },
+    "build": {
     "win": {
       "target": [
         "nsis",
         "portable"
       ],
       "publish": "github",
-      "publisherName": "RC DESIGN"
+      "publisherName": "arestrepoco"
     }
-    }
-
+  }
+}
