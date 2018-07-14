@@ -1,0 +1,7 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.ifedapoolarewaju.desktop.igdm
+mac:
+  category: public.app-category.social-networking
+electronVersion: 2.0.2

@@ -1,0 +1,26 @@
+block titleDeterminer
+  if pageTitle
+    - var title = 'Manage DM IN - ' + pageTitle
+  else
+    - var title = 'Manage DM IN'
+  unless pageID
+    - var pageID = ''
+doctype html
+html(lang='en' ng-app="myApp")
+  head
+    block head
+      title= title
+      meta(charset='utf-8')
+      meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+      meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+      script(type='text/javascript', src='js/custom.js')
+      script(type='text/javascript', src='js/angular.js')
+      script(type='text/javascript', src='js/xlsx.min.js')
+      script(type='text/javascript', src='js/jquery-3.3.1.min.js')
+      script(lang="javascript" src='js/xlsx.full.min.js')
+
+      link(rel='stylesheet', type='text/css', href='../node_modules/bootstrap/dist/css/bootstrap.min.css')
+  block body
+    body(ng-controller="myController")
+      block content
+        .container-fluid

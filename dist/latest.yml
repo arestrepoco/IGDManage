@@ -1,0 +1,9 @@
+version: 2.5.1
+files:
+  - url: IGdm-Setup-2.5.1.exe
+    sha512: OEtkG23dV0vpsuj9bQeqJKBF0WZc4KdA4jMSmcAbk8oPW/U2DWPjQ24inQZFEOHATpDIu8Ur8t3L+Wh8H9T6fg==
+    size: 42837843
+path: IGdm-Setup-2.5.1.exe
+sha512: OEtkG23dV0vpsuj9bQeqJKBF0WZc4KdA4jMSmcAbk8oPW/U2DWPjQ24inQZFEOHATpDIu8Ur8t3L+Wh8H9T6fg==
+sha2: 8da7e2e5b20431f823eb271471de185429a5798c289ff529625453fe3257c183
+releaseDate: '2018-07-07T18:14:57.665Z'
