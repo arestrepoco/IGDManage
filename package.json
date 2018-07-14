@@ -1,7 +1,7 @@
 {
-  "name": "IGdm",
-  "version": "2.5.1",
-  "description": "Desktop application for Instagram DMs",
+  "name": "IGDManage",
+  "version": "1.0.0",
+  "description": "Desktop application DMs",
   "main": "main/main.js",
   "scripts": {
     "start": "gulp build && electron .",
@@ -20,7 +20,7 @@
     "Social Media"
   ],
   "author": "RC DESIGN",
-  "license": "MIT",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "dependencies": {
     "bluebird": "^3.5.0",
     "bootstrap": "^4.0.0",
@@ -51,7 +51,7 @@
         "repo": "igdmanage"
       }
     ],
-    "appId": "com.ifedapoolarewaju.desktop.igdm",
+    "appId": "com.arestrepoco.desktop.igdm",
     "copyright": "RC Design 2018",
       "publish": "github",
       "category": "public.app-category.social-networking"
